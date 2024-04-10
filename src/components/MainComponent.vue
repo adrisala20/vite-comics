@@ -1,6 +1,9 @@
 <template>
-    <main>
-        main
+    <main >
+        <div class="container">
+            >>> Contenuto <<<
+        </div>
+        
     </main>
 </template>
 
@@ -14,6 +17,10 @@
 
 main {
     background-color: black;
+    padding: 30px;
+    .container{
+        color: white;
+    }
 }
 
 </style>

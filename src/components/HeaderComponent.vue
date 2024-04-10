@@ -64,9 +64,15 @@
 </script>
 
 <style lang="scss" scoped>
+header{
+    img{
+        width: 3.5em;
+
+    }
+}
 header {
     padding:20px;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     ul{
@@ -78,10 +84,19 @@ header {
                 text-decoration: none;
                 color: black;
                 text-transform: uppercase;
+
+                &:hover{
+                    color: blue;
+                }
+                &:active{
+                    border-bottom: 1px solid blue;
+                }
+
+                }
             }
         }
 
     }
-}
+
 
 </style>
