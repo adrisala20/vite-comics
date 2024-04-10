@@ -2,6 +2,8 @@
   <HeaderComponent />
   <MainComponent />
   <FooterComponent />
+
+  <!--  non sono riuscita a finire la prima parte andrò avanti più tardi o domani  -->
    
 </template>
 
@@ -23,3 +25,4 @@
 <style lang="scss" scoped>
 
 </style>
+
