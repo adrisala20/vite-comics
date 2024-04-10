@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <main>
         main
-    </div>
+    </main>
 </template>
 
 <script>
@@ -11,5 +11,9 @@
 </script>
 
 <style lang="scss" scoped>
+
+main {
+    background-color: black;
+}
 
 </style>
