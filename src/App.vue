@@ -3,8 +3,7 @@
   <MainComponent />
   <FooterComponentTop />
   <FooterComponent />
-
-  <!--  non sono riuscita a finire la prima parte andrò avanti più tardi o domani  -->
+  <FooterComponentBottom />
    
 </template>
 
@@ -13,6 +12,7 @@
   import MainComponent from './components/MainComponent.vue';
   import FooterComponent from './components/FooterComponent.vue';
   import FooterComponentTop from './components/FooterComponentTop.vue';
+  import FooterComponentBottom from './components/FooterComponentBottom.vue';
   
   export default {
     name:'App',
@@ -21,6 +21,7 @@
       MainComponent,
       FooterComponent,
       FooterComponentTop,
+      FooterComponentBottom,
     }
   }
 </script>
