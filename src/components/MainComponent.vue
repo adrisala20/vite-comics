@@ -2,7 +2,7 @@
     <main >
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-2 py-2" v-for="(item,index) in comics" :key="index">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 py-2" v-for="(item,index) in comics" :key="index">
                     <CardComponent :image="item.thumb" :title="item.series"  />
                 </div>
             </div>

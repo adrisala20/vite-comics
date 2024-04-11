@@ -20,8 +20,11 @@
 .card{
     border: none;
     cursor: pointer;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.787);
+    }
     img{
-        height: 250px;
+        height: 15em;
     };
     h5{
         color: white;
