@@ -64,10 +64,11 @@
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/styles/partials/variables' as *;
+
 header{
     img{
         width: 6em;
-
     }
 }
 header {
@@ -84,13 +85,12 @@ header {
             a{
                 text-decoration: none;
                 color: black;
-                text-transform: uppercase;
-
-                &:hover{
-                    color: blue;
-                }
-                &:active{
-                    border-bottom: 1px solid blue;
+                border-bottom: 5px solid transparent;
+                padding: 0px 5px 73px 0px;
+            &:hover {
+                color: $primary;
+                border-bottom: 5px solid $primary;
+                padding: 0px 5px 73px 0px;
                 }
 
                 }

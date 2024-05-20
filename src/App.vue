@@ -1,5 +1,6 @@
 <template>
   <HeaderComponent />
+  <JumboComponent />
   <MainComponent />
   <FooterComponentTop />
   <FooterComponent />
@@ -9,6 +10,7 @@
 
 <script>
   import HeaderComponent from './components/HeaderComponent.vue';
+  import JumboComponent from './components/JumboComponent.vue';
   import MainComponent from './components/MainComponent.vue';
   import FooterComponent from './components/FooterComponent.vue';
   import FooterComponentTop from './components/FooterComponentTop.vue';
